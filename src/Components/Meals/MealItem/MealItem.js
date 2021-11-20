@@ -25,7 +25,7 @@ export default function MealItem(props) {
 			</div>
 			<div className="item-info">
 				<h2>
-					<a href="#">{name}</a>
+					<a href={`/meals/${id}`}>{name}</a>
 				</h2>
 				<p>{description}</p>
 				<div className="price">${price}</div>

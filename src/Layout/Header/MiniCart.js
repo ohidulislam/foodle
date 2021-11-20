@@ -50,8 +50,8 @@ export default function MiniCart(props) {
 					<p>${totalAmount}</p>
 				</div>
 				<div className="action-btn">
-					<a href="#">Cart</a>
-					<a href="#">Checkout</a>
+					<a href="/cart">Cart</a>
+					<a href="/checkout">Checkout</a>
 				</div>
 			</div>
 		</div>
